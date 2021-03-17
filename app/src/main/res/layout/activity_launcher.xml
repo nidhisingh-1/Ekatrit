@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".LauncherActivity">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:src="@drawable/pg1"
+        android:layout_width="wrap_content"
+        android:layout_height="403dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+       <TextView
+           android:fontFamily="@font/reemkufiregular"
+           style="@style/ekatrit"
+           android:layout_gravity="center"
+           android:text="@string/app_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </TextView>
+
+       <TextView
+           android:layout_marginBottom="60dp"
+          android:fontFamily="@font/reemkufiregular"
+           android:text="@string/hustle_ever"
+           android:textAppearance="@style/hustle_ever"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+       </TextView>
+
+      <androidx.appcompat.widget.AppCompatImageView
+          android:layout_gravity="center"
+          android:onClick="nextactivity"
+          android:src="@drawable/arrow"
+          android:layout_width="50dp"
+          android:layout_height="50dp">
+
+      </androidx.appcompat.widget.AppCompatImageView>
+   </LinearLayout>
+</LinearLayout>
