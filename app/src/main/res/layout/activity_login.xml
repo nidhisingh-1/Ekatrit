@@ -29,5 +29,38 @@
             android:layout_height="wrap_content">
 
         </TextView>
+
+        <EditText
+            android:background="@drawable/email"
+            android:id="@+id/rectangle_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:background="@drawable/email"
+            android:id="@+id/rectangle_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+
+
     </LinearLayout>
 </LinearLayout>
