@@ -59,7 +59,13 @@
             android:ems="10"
             android:inputType="textPassword" />
 
-
+        <ImageButton
+            android:background="@drawable/roundcorner"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="260dp"
+            android:layout_height="49dp"
+            android:src="@drawable/loginbtn"/>
 
 
     </LinearLayout>
