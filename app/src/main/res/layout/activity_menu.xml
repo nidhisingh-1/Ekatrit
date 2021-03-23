@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/bg1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/reemkufiregular"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/attendenceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EEE595"
+            android:fontFamily="@font/red_rose"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/TrackAttendence"
+            android:textAllCaps="false"
+            android:textColor="@color/pink"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:cornerRadius="40dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/todoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="@font/red_rose"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/ToDoList"
+            android:textAllCaps="false"
+            android:textColor="#EEE595"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:cornerRadius="40dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EEE595"
+            android:fontFamily="@font/red_rose"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/ThoughtsEmotions"
+            android:textAllCaps="false"
+            android:textColor="@color/pink"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:cornerRadius="40dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cvBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/pink"
+            android:fontFamily="@font/red_rose"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/cv"
+            android:textAllCaps="false"
+            android:textColor="#EEE595"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:cornerRadius="40dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/menu_img">
+
+        </ImageView>
+
+</LinearLayout>

@@ -6,4 +6,10 @@
 Hustle everyday!
 </string>
     <string name="login_here">Login here</string>
+    <string name="menu">Menu</string>
+    <string name="TrackAttendence">Track Attendence</string>
+    <string name="ToDoList">ToDo List</string>
+    <string name="ThoughtsEmotions"><![CDATA[Thoughts & Emotions]]></string>
+    <string name="cv">Ctrl C + Ctrl V</string>
+    <string name="login_here">Login here</string>
 </resources>

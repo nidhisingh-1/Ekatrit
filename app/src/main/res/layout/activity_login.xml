@@ -1,72 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
     android:background="@drawable/bg1"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".LauncherActivity">
-    <LinearLayout
-        android:orientation="vertical"
+
+
+    <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_height="403dp"
+        android:src="@drawable/stud">
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:src="@drawable/stud"
-            android:layout_width="wrap_content"
-            android:layout_height="403dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true">
+    </androidx.appcompat.widget.AppCompatImageView>
 
-        </androidx.appcompat.widget.AppCompatImageView>
+    <TextView
+        style="@style/login_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/reemkufiregular"
+        android:text="@string/login_here">
 
-        <TextView
-            android:fontFamily="@font/reemkufiregular"
-            android:text="Login here"
-            android:layout_gravity="center"
-            style="@style/login_here"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+    </TextView>
 
-        </TextView>
-
-        <EditText
-            android:background="@drawable/email"
-            android:id="@+id/rectangle_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:hint="Email"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
-
-        <EditText
-            android:layout_marginTop="20dp"
-            android:background="@drawable/email"
-            android:id="@+id/rectangle_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:hint="Password"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-        <ImageButton
-            android:background="@drawable/roundcorner"
-            android:layout_marginTop="50dp"
-            android:layout_gravity="center"
-            android:layout_width="261dp"
-            android:layout_height="49dp"
-            android:src="@drawable/loginbtn"/>
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:textColor="@color/pink" />
 
 
-    </LinearLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pwdEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/email"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:textColor="@color/pink" />
+
+    <ImageButton
+        android:id="@+id/loginbtn"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundcorner"
+        android:elevation="34dp"
+        android:src="@drawable/loginbtn" />
+
+
 </LinearLayout>
